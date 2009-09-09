@@ -1,0 +1,120 @@
+/*************/
+
+#content {
+  font-family: georgia, arial, sans-serif;
+  font-size: small;
+  margin: 5px auto 5px auto;
+  width: 700px;
+}
+
+/*************/
+
+#crumblist {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px dotted;
+}
+
+#crumblist a {
+  padding-right: 16px;
+  background-image: url(images/breadcrumb.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/*************/
+
+.body-item {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px dotted;
+}
+
+/*************/
+
+#header {
+  background: url(images/diagonal.png);
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 2px solid;
+}
+
+#content-intro {
+  background: url(images/purple-diagonal.png);
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid;
+  font-size: medium;
+  text-align: center;
+}
+
+#footer {
+  background: url(images/diagonal.png);
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid;
+}
+
+/*************/
+
+h1 {
+  font-size: 170%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+p, li {
+  line-height: 1.6em;
+}
+
+.caption {
+  text-align: center;
+  font-size: x-small;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+object.embedded-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.frame {
+  padding: 5px;
+  border: 1px solid;
+}
+
+div.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+/*************/
+
+/* Links to external pages are followed by an icon that indicating that the user will leave the page. */
+a.external {
+  background-image: url(images/external-link.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 18px;
+}
+
+/* Links to special file formats have a little icon that helps the user determine the file type. */
+a.video {
+  background-image: url(images/video.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 20px;
+}
