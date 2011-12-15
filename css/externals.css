@@ -1,0 +1,6 @@
+a:not([href^="http://ejd.github.com"]) {
+    background-image: url(images/external-link.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 13px;
+}
